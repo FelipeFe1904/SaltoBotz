@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 72% 35%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 120 61% 33%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 72% 35%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 72% 45%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 120 61% 33%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 72% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("/images/robot-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.member-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.member-card:hover .member-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.member-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+}
+
+.member-icon {
+  @apply bg-salto-green text-white rounded-full p-1 absolute top-2 right-2;
+}
+
+.section-heading {
+  @apply text-3xl font-bold tracking-tighter sm:text-5xl relative inline-block;
+}
+
+.section-heading::after {
+  content: "";
+  @apply absolute bottom-0 left-0 w-1/2 h-1 bg-salto-green;
+  transform: translateX(50%);
+}
+
+.sponsor-card {
+  @apply bg-white rounded-lg shadow-md p-6 flex items-center justify-center transition-all duration-300;
+}
+
+.sponsor-card:hover {
+  @apply shadow-lg transform scale-105;
+}
+
+.area-badge {
+  @apply inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2;
+}
+
+.area-badge-mecanica {
+  @apply bg-salto-red/10 text-salto-red border-transparent;
+}
+
+.area-badge-eletrica {
+  @apply bg-yellow-500/10 text-yellow-500 border-transparent;
+}
+
+.area-badge-computacao {
+  @apply bg-blue-500/10 text-blue-500 border-transparent;
+}
+
+.area-badge-marketing {
+  @apply bg-purple-500/10 text-purple-500 border-transparent;
+}
+
+.area-badge-administrativo {
+  @apply bg-orange-500/10 text-orange-500 border-transparent;
+}
