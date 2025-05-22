@@ -42,7 +42,7 @@ export default function RobosClientPage() {
             podiums: 0,
             competitions: 0,
             specialty: language === "pt-BR" ? "Arma vertical giratória" : "Vertical spinning weapon",
-            image: "/images/pitoco/pitoco-interno.jpeg",
+            image: "/images/mini-joker/mini-joke-new1.jpeg",
             slug: "mini-joker",
           },
         ]
@@ -68,7 +68,7 @@ export default function RobosClientPage() {
             podiums: 0,
             competitions: 0,
             specialty: language === "pt-BR" ? "Arma vertical giratória" : "Vertical spinning weapon",
-            image: "/images/pitoco/pitoco-interno.jpeg",
+            image: "/images/mini-joker/mini-joke-new1.jpeg",
             slug: "mini-joker",
           },
           {
