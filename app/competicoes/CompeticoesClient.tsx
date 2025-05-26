@@ -25,7 +25,7 @@ export default function CompeticoesClient() {
         "A Robocore Summer Marathon (RSM) é uma das maiores competições de robótica da América Latina, reunindo equipes de todo o Brasil e países vizinhos. O evento conta com diversas categorias de combate, sumô, seguidor de linha e muito mais.",
       descricaoEn:
         "The Robocore Summer Marathon (RSM) is one of the largest robotics competitions in Latin America, bringing together teams from all over Brazil and neighboring countries. The event features various categories including combat, sumo, line follower, and much more.",
-      imagem: "/placeholder.svg?height=300&width=500",
+      imagem: "/images/RSM-Challenge.jpg",
       website:
         "https://events.robocore.net/rsm-2025/?gad_source=1&gad_campaignid=16509321328&gbraid=0AAAAADzrkI5wKpvSMEPxO_aWM9jhJwyU4&gclid=Cj0KCQjwrPHABhCIARIsAFW2XBMU_ZrxSQ2_xqPxkVbHc9t5nlzk2xS_Chl-3Yp-V3oum6BmvHtNfVYaAimmEALw_wcB",
       resultados: [

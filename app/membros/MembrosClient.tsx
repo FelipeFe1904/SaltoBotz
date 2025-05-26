@@ -123,7 +123,7 @@ const membros = [
     cargo: "Engenheiro",
     areas: ["eletrica"] as AreaId[],
     anoIngresso: "2023",
-    foto: "/images/membros/brian-wealth.jpeg",
+    foto: "/images/membros/brian.png",
     email: "brianbrahmswealth@gmail.com",
     github: "https://github.com/mr-wealth",
     linkedin: "www.linkedin.com/in/brian-wealth",
@@ -152,12 +152,12 @@ const membros = [
   },
   {
     id: 17,
-    nome: "Eduardo Zampoti",
+    nome: "Eduardo Zambotti",
     apelido: "Eduardo",
     cargo: "Engenheiro",
     areas: ["eletrica"] as AreaId[],
     anoIngresso: "2024",
-    foto: "/images/membros/eduardo-z.jpeg",
+    foto: "/images/membros/eduardo.png",
     email: "caioks190@gmail.com",
     linkedin: "www.linkedin.com/in/eduardo-zambotti-marzochi-004472221",
   },
@@ -216,7 +216,7 @@ const membros = [
     cargo: "Técnico",
     areas: ["eletrica"] as AreaId[],
     anoIngresso: "2024",
-    foto: "/images/membros/hector.jpeg",
+    foto: "/images/membros/hector.png",
     email: "hectormerces.delima956@gmail.com",
     linkedin: "https://www.linkedin.com/in/hectormerces",
   },
@@ -239,7 +239,7 @@ const membros = [
     cargo: "Técnico",
     areas: ["mecanica", "administrativo"] as AreaId[],
     anoIngresso: "2025",
-    foto: "/images/membros/gabriel-sirtori.png",
+    foto: "/images/membros/luciano-s.png",
     email: "luciano.scardueli@gmail.com",
     github: "https://github.com/gabrielsirtori",
     linkedin: "https://linkedin.com/in/gabrielsirtori",
@@ -251,7 +251,7 @@ const membros = [
     cargo: "Técnico",
     areas: ["mecanica"] as AreaId[],
     anoIngresso: "2025",
-    foto: "/images/membros/gabriel-sirtori.png",
+    foto: "/images/membros/eduardo-melo.png",
     email: "emelo0989@gmail.com",
     github: "https://github.com/dudumeloo",
     linkedin: "https://www.linkedin.com/in/eduardo-melo-de-oliveira-845a5535a?trk=contact-info",
@@ -274,7 +274,7 @@ const membros = [
     cargo: "Técnico",
     areas: ["eletrica"] as AreaId[],
     anoIngresso: "2025",
-    foto: "/images/membros/giovanna.jpeg",
+    foto: "/images/membros/giovanna.png",
     email: "giovannabm2006@gmail.com",
     github: "https://github.com/GiovannaMenezes306",
   },  
@@ -317,7 +317,7 @@ export default function MembrosClient() {
       {/* Header */}
       <div className="w-full h-[300px] relative">
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/90 to-zinc-900/70 z-10"></div>
-        <Image src="/placeholder.svg?height=600&width=1200" alt="Equipe Salto Botz" fill className="object-cover" />
+        <Image src="/images/fototodos7.jpg" alt="Equipe Salto Botz" fill className="object-cover" />
         <div className="container relative z-20 h-full flex flex-col justify-center items-center text-white text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">{t("members.title")}</h1>
           <p className="max-w-2xl text-zinc-300">{t("members.description")}</p>

@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Salto Botz - Equipe de Robótica",
   description: "Equipe de robótica especializada em competições de combate de robôs.",
-    generator: 'v0.dev'
+    
 }
 
 export default function RootLayout({

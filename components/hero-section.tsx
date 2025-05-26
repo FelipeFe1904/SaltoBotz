@@ -15,7 +15,7 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/90 to-zinc-900/70 z-10"></div>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-salto-green/20 via-transparent to-transparent z-0"></div>
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="/images/fotogrupo4.jpg"
           alt="Background"
           fill
           className="object-cover opacity-30"
@@ -50,9 +50,7 @@ export default function HeroSection() {
               </Button>
             </div>
           </div>
-          <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] animate-float">
-            <Image src="/images/salto-botz-logo.png" alt="Salto Botz" fill className="object-contain" priority />
-          </div>
+         
         </div>
 
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">

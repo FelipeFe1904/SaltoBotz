@@ -469,7 +469,7 @@ export default function Home() {
             <div className="rounded-lg overflow-hidden">
               <div className="relative h-[300px] lg:h-[400px]">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/images/fotogrupo2.jpg"
                   fill
                   alt={language === "pt-BR" ? "Equipe Salto Botz com patrocinadores" : "Salto Botz team with sponsors"}
                   className="object-cover"
